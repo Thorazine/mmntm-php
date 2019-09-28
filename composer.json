@@ -13,6 +13,17 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0" : {
+            "MmntmPhp" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "MmntmPhp" : "src/"
+        }
+    },
     "require": {
         "php": "^7.1.3",
         "guzzlehttp/guzzle": "^6.3"

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mmntm;
+namespace MmntmPhp;
 
 use Page;
 use Parser;
