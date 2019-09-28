@@ -1,9 +1,9 @@
 {
-    "name": "thorazine/mmntm",
+    "name": "thorazine/mmntm-php",
     "type": "library",
     "description": "Page data getter for Momentum",
-    "keywords": ["mmntm"],
-    "homepage": "https://mmntm.nl",
+    "keywords": ["mmntm", "php"],
+    "homepage": "https://mmntm.nl/docs",
     "license": "MIT",
     "authors": [
         {
