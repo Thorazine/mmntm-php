@@ -16,12 +16,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-0" : {
-            "MmntmPhp" : "src/"
+            "Mmntm" : "src/"
         }
     },
     "autoload-dev": {
         "psr-0": {
-            "MmntmPhp" : "src/"
+            "Mmntm" : "src/"
         }
     },
     "require": {
