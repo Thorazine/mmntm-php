@@ -21,7 +21,7 @@ class Client {
                 'slug' => ($slug) ? $slug : $this->slug(),
             ];
 
-            $guzzle = new Guzzle(['base_uri' => 'http://localhost/mmntm-api/public']);
+            $guzzle = new Guzzle(['base_uri' => 'https://api.mmntm.nl']);
             $this->response = $guzzle->request('get', '', [
                 'query' => $parameters,
                 'http_errors' => false
@@ -37,6 +37,7 @@ class Client {
                 if($test) {
                     echo 'Status code '.$this->statusCode.PHP_EOL.PHP_EOL;
                     echo 'Variables sent:'.PHP_EOL;
+                    $parameters['key'] = '****** obfuscated ******';
                     var_dump($parameters);
                     die();
                 }
