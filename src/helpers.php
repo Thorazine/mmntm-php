@@ -22,7 +22,6 @@ if( ! function_exists('getPath') ) {
     }
 }
 
-
 if( ! function_exists('keys') ) {
     function keys($value)
     {
